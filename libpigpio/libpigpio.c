@@ -31,7 +31,7 @@
 #define BLOCK_SIZE (4*1024)
 
 int  mem_fd;
-char *gpio_mem, *gpio_map;
+unsigned char *gpio_mem, *gpio_map;
 
 volatile unsigned *gpio; // I/O access
 
